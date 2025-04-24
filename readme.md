@@ -1,8 +1,4 @@
-Here is a **README** for your project that describes how to set up and use the Streamlit app for research queries.
-
----
-
-# Research Assistant with AI
+# Research Assistant with LLM
 
 This project is an AI-powered research assistant built using **Streamlit**, **Langchain**, and **Google GenerativeAI SDK (Gemini)**. The app helps users to input research queries and get detailed answers based on available data. The system first tries to fetch the results from a cached memory and, if not available, runs the full agent pipeline to generate an answer, which is then cached for future queries.
 
@@ -40,9 +36,14 @@ Here’s the list of required dependencies:
 
 ```
 streamlit
-langchain
+langchain-community
 google-generativeai
 python-dotenv
+requests
+beautifulsoup4
+langchain
+langgraph
+tavily-python
 ```
 
 ## Setup
@@ -74,7 +75,7 @@ Once you have installed all dependencies and set up the `.env` file, you can run
 To start the app, navigate to the project directory in your terminal and run:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 This will start the app, and it will automatically open a new tab in your default web browser where you can interact with the research assistant.
@@ -94,18 +95,28 @@ Here is the basic structure of the project:
 ```
 research_assistant_ai/
 │
-├── app.py                     # Main Streamlit app
-├── .env                       # Environment variables (API keys)
-├── requirements.txt           # List of dependencies
-├── data/                      # Directory for data files
-│   ├── memory_store.json      # Stores cached research results
-│   └── queries_results.json  # Stores results of queries
-├── agents/                    # Contains agent-related logic
-│   ├── research_agent.py     # Code to process research queries
-│   ├── answer_agent.py       # Code to generate answers
-├── graph/                     # Contains graph-related logic
-│   ├── research_graph.py     # Code to build and manage the research graph
-└── data/memory_utils.py       # Code for loading and saving memory
+├── .env                         # Environment variables (API keys)
+├── requirements.txt             # List of dependencies
+│
+├── main.py                      # Entry point of the application
+├── config.py                    # Configuration settings (e.g., constants, paths)
+│
+├── data/                        # Directory for data files
+│   ├── memory_store.json        # Stores cached research results
+│   ├── queries_results.json     # Stores results of queries
+│   └── memory_utils.py          # Code for loading and saving memory
+│
+├── agents/                      # Contains agent-related logic
+│   ├── research_agent.py        # Code to process research queries
+│   ├── answer_agent.py          # Code to generate answers
+│
+├── graph/                       # Contains graph-related logic
+│   ├── research_graph.py        # Code to build and manage the research graph
+│
+└── tool/                        # Tools used by the agents
+    ├── summarizer.py            # Logic for summarizing research content
+    └── tavily_search.py                # Tool for reading or researching content (using tavily)
+
 ```
 
 ## How the System Works
@@ -116,14 +127,9 @@ research_assistant_ai/
 4. **Save to Memory**: The answer is saved to memory for future reference, avoiding the need to reprocess the same query.
 5. **Final Answer**: The generated or cached answer is displayed to the user, with the option to download the results.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Conclusion
 
-This **Research Assistant with AI** app leverages the power of AI models to answer complex research queries in a fast, efficient manner. It uses caching to avoid redundant computations and makes it easy to interact with the system using Streamlit.
+This **Research Assistant with LLM** app leverages the power of AI models to answer complex research queries in a fast, efficient manner. It uses caching to avoid redundant computations and makes it easy to interact with the system using Streamlit.
 
 ---
-
-Let me know if you need any more details or updates to this README!

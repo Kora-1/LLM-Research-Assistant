@@ -40,7 +40,7 @@ from data.memory_utils import load_from_memory, save_to_memory
 
 def main():
     # Display a title for the app
-    st.title("Research Assistant with AI")
+    st.title("Research Assistant with LLM")
 
     # Input: Ask the user to provide their research query
     query = st.text_input("Enter your research query:")
