@@ -1,0 +1,338 @@
+{
+    "explain all the topic of OOPS.": {
+        "results": [
+            {
+                "title": "Java OOP(Object Oriented Programming) Concepts | GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/",
+                "content": "OOPs (Object-Oriented Programming) is a programming paradigm based on the concept of objects, which can contain data in the form of fields (attributes or properties) and code in the form of procedures (methods or functions). In Java, OOPs concepts include encapsulation, inheritance, polymorphism, and abstraction.\n\nWhy is OOPs important in Java? [...] Conclusion\nThe Object Oriented Programming (OOPs) concept in Java is a powerful way to organize and write code. It uses key ideas like classes, objects, inheritance, polymorphism, encapsulation, and abstraction to create flexible and reusable code.\nBy using the Java OOPs concept, programmers can build complex applications more efficiently, making the code easier to manage, understand, and modify. Overall, Java\u2019s OOPs concepts help in creating robust and scalable software solutions. [...] To know more about the topic refer the *Polymorphism in Java* article.\nAdvantage of OOPs over Procedure-Oriented Programming Language\nObject-oriented programming (OOP) offers several key advantages over procedural programming:",
+                "score": 0.48762518
+            },
+            {
+                "title": "Object Oriented Programming in C++ | GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/",
+                "content": "*Modularity and Reusability*: OOP promotes modularity through classes and objects, allowing for code reusability.\n*Data Encapsulation*: OOP encapsulates data within objects, enhancing data security and integrity.\n*Inheritance*: OOP supports inheritance, reducing redundancy by reusing existing code.\n*Polymorphism*: OOP allows polymorphism, enabling flexible and dynamic code through method overriding. [...] *Object-oriented programming* \u2013 As the name suggests uses objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc. in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.\nThere are some basic concepts that act as the building blocks of OOPs i.e. [...] Assignment Operators in C In C, assignment operators are used to assign values to variables. The left operand is the variable and the right operand is the value being assigned. The value on the right must match the data type of the variable otherwise, the compiler will raise an error. Let's take a look at an example: [GFGTAB 5 min read",
+                "score": 0.44059017
+            },
+            {
+                "title": "5 OOPS Concepts in Java | Inheritance | Polymorphism | Abstraction",
+                "url": "https://techaffinity.com/blog/oops-concepts-in-java/",
+                "content": "Object-oriented programming is a programming paradigm that brings together data and methods in a single entity called object. This promotes greater",
+                "score": 0.38553715
+            },
+            {
+                "title": "What is Object-Oriented Programming (OOP)? - TechTarget",
+                "url": "https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP",
+                "content": "What is object-oriented programming (OOP)?\nObject-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior. [...] Object-oriented vs. functional programming explained\n\n\nThe SOLID principles of object-oriented design explained\n\n\nUnderstanding the role of polymorphism in OOP\n\n\nSoftware Gallery opens at the National Museum of Computing [...] The organization of an object-oriented program also makes the method beneficial for collaborative development, where projects are divided into groups. Additional benefits of OOP include code reusability, scalability and efficiency.\nThe first step in OOP is to collect all of the objects a programmer wants to manipulate and identify how they relate to each other -- an exercise known as data modeling.",
+                "score": 0.38193452
+            },
+            {
+                "title": "What are the basic concepts of OOP? Explain each of them by giving ...",
+                "url": "https://www.quora.com/What-are-the-basic-concepts-of-OOP-Explain-each-of-them-by-giving-real-life-examples-in-your-own-words",
+                "content": "The fundamental concepts of OOP include classes, objects, encapsulation, inheritance, and polymorphism. Classes serve as blueprints for creating",
+                "score": 0.36046708
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/",
+                "summary": "OOPs (Object-Oriented Programming) is a programming approach that organizes code into objects and classes for a more structured and manageable system. Key concepts include:\n\n*   **Classes and Objects:** A class serves as a blueprint defining properties and behaviors, while an object is an instance of a class, representing real-world entities.\n\n*   **Abstraction:** Displaying only essential information and hiding unnecessary details. Achieved through abstract classes and interfaces.\n\n*   **Encapsulation:** Wrapping data within a single unit (class) and protecting it from outside access, typically achieved using private variables and public getter/setter methods.\n\n*   **Inheritance:** Allowing a class (subclass) to inherit properties and methods from another class (superclass), promoting code reusability.\n\n*   **Polymorphism:** Enabling entities with the same name to behave differently. Achieved through method overloading (compile-time) and method overriding (run-time).\n\nThese concepts promote code reusability, maintainability, and scalability, making OOP a robust approach for software development.\n"
+            },
+            {
+                "url": "https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/",
+                "summary": "OOP (Object-Oriented Programming) aims to implement real-world entities like inheritance, hiding, and polymorphism in programming. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function. Key concepts in OOP include:\n\n*   **Class:** A blueprint for creating objects, defining their properties (data members) and behaviors (member functions).\n*   **Object:** An instance of a class, a real-world entity with characteristics and behavior.\n*   **Encapsulation:** Bundling data and methods that operate on that data within a class, protecting the data from outside access.\n*   **Abstraction:** Displaying only essential information and hiding complex implementation details.\n*   **Polymorphism:** The ability of an object to take on many forms, allowing methods to behave differently based on the context (e.g., function overloading, function overriding).\n*   **Inheritance:** The mechanism where a class inherits properties and characteristics from another class, promoting code reusability."
+            },
+            {
+                "url": "https://techaffinity.com/blog/oops-concepts-in-java/",
+                "summary": "This document explains the core concepts of Object-Oriented Programming (OOP) in Java. Here's a breakdown of the topics covered:\n\n*   **Objects and Classes:** Objects are instances of classes and represent real-world entities. Classes are templates used to create objects, defining their properties and methods.\n*   **Abstraction:** Hiding irrelevant details and showing only necessary information to the user.\n*   **Encapsulation:** Bundling data (variables) and methods that operate on the data within a class, protecting the data from outside access (data hiding).\n*   **Inheritance:** A mechanism where a class inherits properties and methods from another class, promoting code reusability. Types of inheritance discussed include single, multilevel, hierarchical, and multiple (Java doesn't directly support multiple inheritance).\n*   **Polymorphism:** The ability of an object to take on many forms, allowing a single function to perform different actions. Polymorphism is achieved through method overloading (static polymorphism) and method overriding (dynamic polymorphism).\n\nThe document also briefly touches on applications of OOP, such as real-time system design, object-oriented databases, office automation systems, and simulation/modeling.\n"
+            },
+            {
+                "url": "https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP",
+                "summary": "Object-Oriented Programming (OOP) is a programming model that organizes software design around data (objects) with unique attributes and behavior, rather than functions and logic. Key aspects of OOP include:\n\n*   **Structure:**\n    *   **Classes:** Blueprints for creating objects, defining attributes and methods.\n    *   **Objects:** Instances of a class with defined data.\n    *   **Methods:** Functions that objects can perform, defining their behavior.\n    *   **Attributes:** Characteristics that represent the state of an object.\n\n*   **Principles:**\n    *   **Encapsulation:** Hiding internal object information and exposing only necessary details.\n    *   **Abstraction:** Showing only relevant internal mechanisms to other objects, hiding unnecessary code.\n    *   **Inheritance:** Reusing code and properties from existing classes to create new classes.\n    *   **Polymorphism:** Objects taking on multiple forms, allowing a single function to adapt.\n    *   **Syntax:** Rules for organizing language.\n    *   **Coupling:** The degree to which software elements are connected.\n    *   **Association:** The connection between one or more classes.\n\n*   **Languages:** Many languages support OOP, including pure OOP languages like Ruby, Scala, JADE, and Emerald; languages designed primarily for OOP like Java, Python, and C++; and languages that pair with OOP like Visual Basic .NET, PHP, and JavaScript.\n\n*   **Benefits:** Modularity, reusability, productivity, scalability, simple interface descriptions, security, flexibility, easier code maintenance, and lower cost."
+            },
+            {
+                "url": "https://www.quora.com/What-are-the-basic-concepts-of-OOP-Explain-each-of-them-by-giving-real-life-examples-in-your-own-words",
+                "summary": "The provided content is a Quora question asking for an explanation of the basic concepts of Object-Oriented Programming (OOP) with real-life examples.\n\n**Summary related to the query \"explain all the topic of OOPS\":**\n\nThe content indicates a request for a comprehensive explanation of all the fundamental topics within Object-Oriented Programming. It highlights the need to define and illustrate each concept using practical, real-world analogies.\n"
+            }
+        ]
+    },
+    "explain me 15 topics from oops in long": {
+        "results": [
+            {
+                "title": "40+ OOPs Interview Questions and Answers (2025) - InterviewBit",
+                "url": "https://www.interviewbit.com/oops-interview-questions/",
+                "content": "12. How is an abstract class different from an interface?\n13. Explain Inheritance with an example?\n14. What is an exception?\n15. What is meant by exception handling?\n16. What is meant by Garbage Collection in OOPs world?\n17. Can we run a Java application without implementing the OOPs concept?\n18. What is Compile time Polymorphism and how is it different from Runtime Polymorphism?\n19. What is a class?\n20. What is an object?\n21. What is encapsulation?\n22. What is Polymorphism? [...] 14. What is an exception?\nAn exception can be considered as a special event, which is raised during the execution of a program at runtime, that brings the execution to a halt. The reason for the exception is mainly due to a position in the program, where the user wants to do something for which the program is not specified, like undesirable input.\n15. What is meant by exception handling? [...] C# programming language  \n11.\nWhich feature of OOPs facilitates code reusability?\nAbstraction  \nEncapsulation  \nPolymorphism  \nInheritance  \n12.\nCan you use C language to demonstrate Polymorphism?\nTrue  \nFalse  \n13.\n________ is an object-oriented programming language but does not support all inheritance types.\nSmalltalk  \nKotlin  \nJava  \nC++  \n14.\nState true or false: A Java application can be created without implementing the OOPs concept.\nTrue  \nFalse  \n15.",
+                "score": 0.5221784
+            },
+            {
+                "title": "What are the most important topics on object-oriented programming ...",
+                "url": "https://www.quora.com/What-are-the-most-important-topics-on-object-oriented-programming-that-one-should-know-in-order-to-master-OOP",
+                "content": "OOPs has four basic concepts viz Inheritance, Polymorphism, Encapsulation and Abstraction. Having good understanding and detailed knowledge of",
+                "score": 0.47110215
+            },
+            {
+                "title": "Explaining OOPs concepts to Papa!! - YouTube",
+                "url": "https://www.youtube.com/watch?v=Ei2zOVYIyKE",
+                "content": "Back with another video which shows basic concepts of programming can be understood by anyone. 15 min and my papa can now talk about OOPs.",
+                "score": 0.4017588
+            },
+            {
+                "title": "30 OOPs Interview Questions and Answers [2025 Updated]",
+                "url": "https://www.geeksforgeeks.org/oops-interview-questions/",
+                "content": "| An abstract class can have final, non-final, static and non-static variables. | The interface has only static and final variables. |\n| Abstract class doesn\u2019t support multiple inheritance | An interface supports multiple inheritance. |\n*21. How much memory does a class occupy?*\nClasses do not use memory. They merely serve as a template from which items are made. Now, objects actually initialize the class members and methods when they are created, using memory in the process. [...] 30 OOPs Interview Questions and Answers [2025 Updated] Object-oriented programming, or OOPs, is a programming paradigm that implements the concept of objects in the program. It aims to provide an easier solution to real-world problems by implementing real-world entities such as inheritance, abstraction, polymorphism, etc. in programming. OOPs concept is 15+ min read [...] Also known as dynamic polymorphism or late binding, runtime polymorphism is the type of polymorphism where the actual implementation of the function is determined during the runtime or execution. *Method overriding* is an example of this method.\n*16. What is the difference between overloading and overriding?*\nA compile-time polymorphism feature called *overloading* allows an entity to have numerous implementations of the same name. Method overloading and operator overloading are two examples.",
+                "score": 0.35033303
+            },
+            {
+                "title": "Basic OOP Concepts Explained with Code - AlgoMaster Newsletter",
+                "url": "https://blog.algomaster.io/p/basic-oop-concepts-explained-with-code",
+                "content": "Let\u2019s say we have a parent Vehicle class with a method named honk().\n\nThe Car class inherits the color attribute and the honk method from the Vehicle class promoting code reuse. The Car class also adds its own attributes and methods, such as speed and accelerate.\n\n4. Polymorphism\n\nPolymorphism is the ability of an object to take on multiple forms.\n\nIt enables you to write generic code that can work with objects of multiple types, as long as they share a common interface. [...] We create two objects, toyota_car and chevrolet_car which are instances of the Car class. Both car objects can invoke start_engine() method using their own values for the make,  model and year properties.\n\n2. Encapsulation\n\nEncapsulation is the concept of hiding the implementation details of an object from the outside world and only exposing the necessary information through public methods.\n\nEncapsulation helps protect the object's internal state from external interference and misuse. [...] 5. Abstraction\n\nAbstraction is the concept of showing only the necessary information to the outside world while hiding unnecessary details.\n\nAbstraction helps to simplify complex systems and focus on the essential features.\n\nIn Python, you can achieve abstraction using abstract base classes (ABC) and abstract methods.\n\nLet\u2019s say we have an abstract base class called Shape. The Shape class is marked as an abstract class by inheriting from the ABC class (Abstract Base Class).",
+                "score": 0.34773698
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.interviewbit.com/oops-interview-questions/",
+                "summary": "The document presents interview questions and answers related to Object-Oriented Programming (OOP) concepts. Here's a summary of 15 key topics from the content, explained in a long form:\n\n1.  **What is OOP?** OOP is a programming paradigm revolving around \"objects,\" which are instances of classes. A class is a blueprint defining characteristics (data, attributes, or properties) and behaviors (functions, procedures, or methods) of objects.\n\n2.  **Need for OOP:** OOP enhances code understandability, readability, maintainability, and allows for easy management of large software projects.\n\n3.  **OOP Languages:** Examples include Java, C++, JavaScript, Python, and PHP.\n\n4.  **Structured Programming:** A programming method with a structured control flow using blocks and definitive control structures.  Nearly all programming paradigms include structured programming, including OOP.\n\n5.  **Main Features of OOP:** Inheritance, Encapsulation, Polymorphism, and Data Abstraction.\n\n6.  **Advantages of OOP:** Helps solve complex problems, facilitates code reuse, hides unnecessary details (abstraction), uses a bottom-up approach, and offers flexibility through polymorphism.\n\n7.  **Access Specifiers:** Keywords like \"private\" and \"public\" that control the accessibility of classes and methods, crucial for encapsulation.\n\n8.  **Inheritance Limitations:** Can increase processing time, create tight coupling between classes, and introduce complexity if not implemented correctly.\n\n9.  **Types of Inheritance:** Single, Multiple, Multi-level, Hierarchical, and Hybrid.\n\n10. **Abstract Class:** A special class containing abstract methods (declared but not implemented), requiring subclasses to implement these methods.\n\n11. **Data Abstraction:** Achieved with abstract methods or classes, hiding unnecessary details from the user.\n\n12. **Polymorphism:** The ability of code, data, methods, or objects to behave differently in different contexts. Two types are Compile-time and Run-time polymorphism.\n\n13. **Overloading vs. Overriding:** Overloading (compile-time) involves multiple implementations with the same name, while overriding (run-time) involves an entity with the same name but changing implementation during execution.\n\n14. **Encapsulation:** Binding data members and methods together, hiding unnecessary details and restricting access to members.\n\n15. **Garbage Collection:** Managing memory by freeing up unwanted memory occupied by unused objects.\n"
+            },
+            {
+                "url": "https://www.quora.com/What-are-the-most-important-topics-on-object-oriented-programming-that-one-should-know-in-order-to-master-OOP",
+                "summary": "The provided content is an error message from Quora. It doesn't contain any information about OOP topics. Therefore, I cannot provide a summary of 15 OOP topics based on this content.\n"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=Ei2zOVYIyKE",
+                "summary": "This YouTube video is titled \"Explaining OOPs concepts to Papa!!\". It likely covers Object-Oriented Programming (OOP) concepts in a way that's easy to understand. However, without viewing the video, I can't provide the 15 specific OOP topics covered.\n"
+            },
+            {
+                "url": "https://www.geeksforgeeks.org/oops-interview-questions/",
+                "summary": "This document is an interview preparation guide focused on Object-Oriented Programming (OOP) concepts. Here's a summary of 15 key OOP topics discussed:\n\n1.  **Object-Oriented Programming (OOP):** A programming paradigm where software operates as a collection of objects interacting with each other. Objects are collections of data and methods.\n2.  **Why OOP:** OOPs improve code manageability, understandability, and maintainability, especially for large software projects.\n3.  **Class:** A blueprint or template for creating objects, containing data members and member functions.\n4.  **Object:** An instance of a class, representing real-world entities with state and behavior.\n5.  **Four Main Features of OOP (Pillars):**\n    *   Encapsulation\n    *   Data Abstraction\n    *   Polymorphism\n    *   Inheritance\n6.  **Encapsulation:** Bundling data and methods into a single unit (class) and hiding sensitive data from direct access.\n7.  **Abstraction:** Displaying only necessary information and hiding irrelevant details.\n8.  **Polymorphism:** The ability of code to behave differently in different contexts.\n9.  **Inheritance:** A mechanism where a class (child) inherits properties and methods from another class (parent), promoting code reusability.\n10. **Access Specifiers:** Keywords (e.g., private, public, protected) that control the accessibility of class members, enabling encapsulation and data hiding.\n11. **Types of Polymorphism:**\n    *   Compile-Time Polymorphism (static/early binding): Resolved during compilation (e.g., method overloading).\n    *   Runtime Polymorphism (dynamic/late binding): Resolved during runtime (e.g., method overriding).\n12. **Overloading vs. Overriding:** Overloading provides multiple implementations of the same name, while overriding allows a subclass to provide a specific implementation of a method that is already defined in its parent class.\n13. **Types of Inheritance:** Single, Multiple, Multilevel, Hierarchical, and Hybrid.\n14. **Interface:** A special class type containing method declarations without definitions.\n15. **Abstract Class:** A class that cannot be instantiated and is designed for inheritance, potentially containing both abstract and non-abstract methods.\n"
+            },
+            {
+                "url": "https://blog.algomaster.io/p/basic-oop-concepts-explained-with-code",
+                "summary": "The provided content explains five core Object-Oriented Programming (OOP) concepts:\n\n1.  **Classes and Objects:** A class is a blueprint defining an object's properties and behavior. An object is an instance of a class.\n2.  **Encapsulation:** Hiding internal object details and exposing necessary information through public methods. Private attributes (using double underscores) prevent direct external access.\n3.  **Inheritance:** A class (subclass) inheriting properties and methods from another class (superclass), promoting code reuse and a hierarchical structure. Subclasses can add or override inherited members.\n4.  **Polymorphism:** The ability of an object to take on multiple forms, enabling generic code. Achieved through method overriding, where subclasses provide specific implementations of parent class methods.\n5.  **Abstraction:** Showing only necessary information and hiding unnecessary details to simplify complex systems. Achieved using abstract base classes (ABC) and abstract methods.\n"
+            }
+        ]
+    },
+    "Tell me all about btech ": {
+        "results": [
+            {
+                "title": "BTech Course Details, Full Form, Eligibility, Duration, and Career",
+                "url": "https://www.tmu.ac.in/blog/btech-course-details-full-form-eligibility-duration-and-career",
+                "content": "and internships.A BTech (Bachelor of Technology) is a four-year undergraduate program focused on engineering and technology. To be eligible, students must have completed their 12th grade with subjects such as physics, chemistry, and mathematics. Additionally, they often need to pass entrance exams like JEE or state-level tests.The course covers core subjects such as mathematics, physics, engineering design, and programming, along with specialized subjects based on the chosen branch, like [...] Ans. A BTech degree, or Bachelor of Technology, is an undergraduate program focused on technical and engineering subjects. This program teaches students to apply scientific and mathematical principles to solve real-world problems like computer science, mechanical engineering, electronics, civil engineering, and more. BTech is a practical degree that prepares students for careers in engineering and technology. It's a great option if you enjoy science, math, and hands-on projects and want to work [...] A BTech (Bachelor of Technology) is a four-year undergraduate program focused on engineering and technology. To be eligible, students must have completed their 12th grade with subjects such as physics, chemistry, and mathematics. Additionally, they often need to pass entrance exams like JEE or state-level tests.",
+                "score": 0.850382
+            },
+            {
+                "title": "BTECH Early College High School",
+                "url": "https://www.btechnyc.org/",
+                "content": "BTECH is an innovative, public high school that provides an opportunity for students to earn a high school diploma, an Associates Degree in Applied Science in Computer Information Systems or Internet Information Technology, and gain relevant work experience in the business technology field. The school was developed through a strong partnership between SAP, the New York City Department of Education, Queensborough Community College, and the Early College Initiative at the City University of New [...] need an education based on technology, innovation, thinking, problem-solving and one that builds character. Business Technology Early College High School (BTECH), in collaboration with Queensborough Community College and SAP, helps prepare students to re-imagine the future. [...] BTECH\u2019s mission is to combine academic excellence with technical aptitude, thus empowering students to be successful in our modern, information-based global economy and community. Along with core topics, you will develop strong technical, design, and communication skills and will graduate with the professional certifications and work experience that will give you a competitive edge in tomorrow\u2019s IT employment marketplace. We believe for students to succeed professionally and academically they",
+                "score": 0.81595254
+            },
+            {
+                "title": "Bachelor of Technology - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Bachelor_of_Technology",
+                "content": "Contents\n\nBachelor of Technology\n\nAcronym | B.Tech.B.T.BTech\nType | Bachelor's degree\nDuration | 4 to 5 years\nA Bachelor of Technology (B.Tech., B.T., or BTech; Latin Baccalaureus Technologiae) is a bachelor's academic degree that is awarded for an undergraduate program in engineering.\n\nAustralia\n\nIn Australia, the Bachelor of Technology (BTech) degree is offered by RMIT University, Edith Cowan University,[1] Curtin University[2] and certain private institutions.\n\nCanada [...] Bachelor of Technology (B.Tech.) degree in India is an undergraduate academic degree conferred after the completion of a four-year full-time engineering program from All India Council for Technical Education recognised institute.[citation needed] The B.Tech. degree is generally awarded by Indian Institutes of Technology (IITs), National Institutes of Technology (NITs) (India), Indian Institutes of Information Technology (IIITs), Government Funded Technical Institutes (GFTIs) or other Centrally",
+                "score": 0.7931224
+            },
+            {
+                "title": "B Tech: Full Form, Courses, Admission 2025, Entrance Exams, Top ...",
+                "url": "https://www.shiksha.com/b-tech-bachelor-of-technology-chp",
+                "content": "B Tech is a professional program related to computers and technology that teaches students about the fundamentals of programming and computer software and hardware . BTech courses lay emphasis on both theoretical understanding and hands-on skill-based learning.",
+                "score": 0.7443038
+            },
+            {
+                "title": "What is B.Tech course all about? | Shiksha.com QAPage",
+                "url": "https://ask.shiksha.com/what-is-b-tech-course-all-about-qna-10934756",
+                "content": "BTech full form is Bachelor of Technology. BTech courses majorly cover the basic principles & applications of engineering disciplines.",
+                "score": 0.7355091
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.tmu.ac.in/blog/btech-course-details-full-form-eligibility-duration-and-career",
+                "summary": "BTech stands for Bachelor of Technology, a four-year undergraduate program focused on engineering principles and technical skills.\n\n**Key Highlights:**\n\n*   **Duration:** 4 years (8 semesters).\n*   **Eligibility:** 10+2 (Physics, Chemistry, Mathematics) with minimum 50-60% marks, and qualifying scores in entrance exams like JEE Main/Advanced or state-level exams.\n*   **Admission:** Primarily entrance exam-based, with some private colleges offering direct admission based on merit.\n*   **Specializations:** Computer Science, Mechanical, Civil, Electrical, Electronics & Communication, Biotechnology, and more.\n*   **Skills Developed:** Technical skills, problem-solving, analytical thinking, communication, and teamwork.\n*   **Career Opportunities:** Software Developer, Civil Engineer, Mechanical Engineer, Data Scientist, and roles in IT, Manufacturing, R&D, Construction, Telecommunications.\n*   **Higher Studies:** MTech, MS, MBA.\n*   **Curriculum:** Includes core subjects like mathematics, physics, programming, and engineering mechanics, along with elective specializations, labs, projects, and internships.\n*   **Fees:** Vary by college (Government: \u20b91-3 Lakhs/year, Private: \u20b95-10 Lakhs/year)\n*   **Salary:** Entry-level \u20b93-6 LPA, experienced professionals \u20b915-20 LPA."
+            },
+            {
+                "url": "https://www.btechnyc.org/",
+                "summary": "BTECH (Business Technology Early College High School) is a public high school in partnership with Queensborough Community College and SAP. It allows students to earn a high school diploma, an Associate's Degree in Applied Science in Computer Information Systems or Internet Information Technology, and gain work experience in the business technology field. The school combines academic excellence with technical skills to prepare students for the IT industry. BTECH's mission emphasizes technology, innovation, problem-solving, and character development.\n"
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/Bachelor_of_Technology",
+                "summary": "A Bachelor of Technology (B.Tech., B.T., or BTech) is an undergraduate academic degree awarded for completing a program in engineering. The degree is offered in several countries including:\n\n*   **Australia:** Offered by RMIT University, Edith Cowan University, Curtin University, and some private institutions.\n*   **Canada:** Offered by institutions like the British Columbia Institute of Technology, Thompson Rivers University, and McMaster University.\n*   **India:** A 4-year full-time engineering program from an AICTE-recognized institute. It is offered by IITs, NITs, IIITs, GFTIs, CFTIs and private deemed universities in engineering disciplines such as civil, chemical, mechanical, electrical, computer science, and electronics and communication engineering. Eligibility typically requires 10+2 education with mathematics, physics, and chemistry, and often requires high scores in entrance exams like JEE Main and JEE Advanced.\n*   **Pakistan:** 4-year technology degree programs are accredited by the National Technology Council (NTC).\n*   **Singapore:** Offered by the National University of Singapore under NUS SCALE programmes.\n*   **United States:** Offered by institutions like the New York City College of Technology."
+            },
+            {
+                "url": "https://www.shiksha.com/b-tech-bachelor-of-technology-chp",
+                "summary": "The provided content indicates an \"Access Denied\" error when attempting to access information about B.Tech (Bachelor of Technology) on shiksha.com. Therefore, the content itself provides no information *about* B.Tech. It only indicates a problem accessing a potential source of information.\n"
+            },
+            {
+                "url": "https://ask.shiksha.com/what-is-b-tech-course-all-about-qna-10934756",
+                "summary": "The content provided indicates an \"Access Denied\" error when trying to access a Shiksha.com page about B.Tech courses. Therefore, I am unable to provide any information about B.Tech based on this content. The key point is that the requested information is inaccessible.\n"
+            }
+        ]
+    },
+    "what is the use of streamlit.": {
+        "results": [
+            {
+                "title": "Streamlit Python: Tutorial - DataCamp",
+                "url": "https://www.datacamp.com/tutorial/streamlit",
+                "content": "What Is Streamlit? Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.",
+                "score": 0.8745175
+            },
+            {
+                "title": "About Streamlit in Snowflake",
+                "url": "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
+                "content": "About Streamlit in Snowflake\u00b6\n\nThis topic describes key features of Streamlit in Snowflake.\n\nWhat is Streamlit?\u00b6\n\nStreamlit is an open-source Python library that makes it easy to create\nand share custom web apps for machine learning and data science. By using Streamlit you can quickly\nbuild and deploy powerful data applications. For more information about the open-source library, see the\nStreamlit Library documentation.\n\nDeploy Streamlit apps in Snowflake\u00b6 [...] Streamlit apps are Snowflake objects and use Role-based Access Control (RBAC) to manage access to Streamlit apps.\n\nStreamlit apps run on Snowflake warehouses and use internal stages to store files and data.\n\nStreamlit in Snowflake works seamlessly with Snowpark, user-defined functions (UDFs), stored procedures, and Snowflake Native App Framework. [...] Streamlit in Snowflake helps developers securely build, deploy, and share Streamlit apps on Snowflake\u2019s data\ncloud. Using Streamlit in Snowflake, you can build applications that process and use data in Snowflake without moving\ndata or application code to an external system.\n\nKey features of Streamlit in Snowflake\u00b6\n\nSnowflake manages the underlying compute and storage for Streamlit apps.",
+                "score": 0.853046
+            },
+            {
+                "title": "Streamlit in 3 Minutes - Medium",
+                "url": "https://medium.com/data-and-beyond/streamlit-d357935b9c",
+                "content": "Streamlit is an open-source Python library that allows you to create interactive web apps for machine learning and data science.",
+                "score": 0.8449346
+            },
+            {
+                "title": "Streamlit \u2014 A faster way to build and share data apps. - GitHub",
+                "url": "https://github.com/streamlit/streamlit",
+                "content": "Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you\u2019ve created an app, you can use our Community Cloud platform to deploy, manage, and share your app.\nWhy choose Streamlit?\nSimple and Pythonic: Write beautiful, easy-to-read code.\nFast, interactive prototyping: Let others interact with your data and provide feedback quickly. [...] Contribute\n\ud83c\udf89 Thanks for your interest in helping improve Streamlit! \ud83c\udf89\nBefore contributing, please read our guidelines here: https://github.com/streamlit/streamlit/wiki/Contributing\nLicense\nStreamlit is completely free and open-source and licensed under the Apache 2.0 license.\nAbout\nStreamlit \u2014 A faster way to build and share data apps.\nstreamlit.io\nTopics\npython data-science machine-learning deep-learning data-visualization developer-tools data-analysis streamlit\nResources\n Readme\nLicense",
+                "score": 0.82994765
+            },
+            {
+                "title": "Introduction to Streamlit - Features, Capabilities & Use Cases",
+                "url": "https://techifysolutions.com/blog/introduction-to-streamlit/",
+                "content": "Streamlit stands as an open-source initiative designed to simplify data exploration and visualization. With its user-friendly interface, you can effortlessly transform your data scripts into dynamic web apps using just a few lines of Python code. From incorporating widgets, charts, and maps to displaying tables and more, Streamlit offers an intuitive API that caters to your creative vision. Plus, forget about grappling with HTML, CSS, or JavaScript complexities or configuring servers Streamlit [...] Streamlit represents a paradigm shift in the world of data science application development, democratizing access to powerful tools and insights. By combining simplicity, flexibility, and interactivity, Streamlit empowers developers to unleash their creativity and drive innovation in the rapidly evolving field of data science. [...] Whether you\u2019re a seasoned data scientist or a newcomer to the world of programming, Streamlit offers a compelling solution for building data-driven applications that make an impact. Join the Streamlit community today and embark on your journey to revolutionize data science application development.\n\nReferences\n\nCategories\n\nCategories\n\nLatest Post\n\nHow to Develop a Microservices-Based Architecture with Python \u2013 Introduction\n\nHow AI CardVault Transforms Business Card Scanning",
+                "score": 0.8021998
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.datacamp.com/tutorial/streamlit",
+                "summary": "The content is unusable. All it says is \"Enable JavaScript and cookies to continue,\" which provides no information about Streamlit or its use. Therefore, I cannot summarize the content in relation to the query \"what is the use of streamlit.\"\n"
+            },
+            {
+                "url": "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
+                "summary": "Streamlit is an open-source Python library that simplifies the creation and sharing of custom web applications, especially for machine learning and data science tasks. In the context of Snowflake, Streamlit in Snowflake enables developers to securely build, deploy, and share these Streamlit apps directly on Snowflake's data cloud, allowing applications to process and utilize data within Snowflake without needing to move data externally.\n"
+            },
+            {
+                "url": "https://medium.com/data-and-beyond/streamlit-d357935b9c",
+                "summary": "Streamlit is an open-source Python library used to create interactive web apps for machine learning and data science. Its key uses include:\n\n*   **Rapid Development:** Simplifies building complex, interactive web applications with minimal code.\n*   **Data Visualization:** Offers tools for creating various data visualizations like scatterplots, histograms, and interactive dashboards.\n*   **Versatile Applications:** Suitable for building apps ranging from simple data displays to complex machine learning models.\n*   **Easy Deployment:** Supports deployment for sharing apps.\n*   **Interactive Components:** Provides components like sliders, text inputs, checkboxes, and select boxes for user interaction.\n*   **Camera Input:** Provides the functionality to use the camera on the site, which is particularly useful when deploying and using computer vision models\n*   **Progress Bar:** Display a progress bar in a Streamlit app to visualize the progress of long-running processes.\n"
+            },
+            {
+                "url": "https://github.com/streamlit/streamlit",
+                "summary": "Streamlit is a tool for building and sharing data applications quickly. It transforms Python scripts into interactive web apps in minutes, allowing users to create dashboards, reports, and chat applications. Streamlit is simple, Pythonic, fast for prototyping, and offers live editing, and is open-source and free. It also allows for deploying, managing, and sharing apps using Community Cloud."
+            },
+            {
+                "url": "https://techifysolutions.com/blog/introduction-to-streamlit/",
+                "summary": "Streamlit is an open-source Python library that simplifies the creation of interactive web applications for data exploration and visualization. Its key uses include:\n\n*   **Data Exploration and Visualization:** Building interactive dashboards to explore and analyze datasets, visualize trends, patterns, and correlations.\n*   **Machine Learning Prototyping:** Streamlining the process of prototyping and deploying machine learning models with a user-friendly interface.\n*   **Data-Driven Applications:** Creating various applications such as recommendation systems, sentiment analysis tools, and financial calculators.\n\nKey features that enable these uses are:\n\n*   **Simple and Intuitive API:** Uses familiar Python syntax, making it accessible to developers of all skill levels.\n*   **Live Code Editing:** Provides instant updates to the application as code changes are made, accelerating development.\n*   **Built-in Widgets and Components:** Offers a rich set of interactive elements for customizing user interfaces.\n*   **Seamless Deployment:** Supports deployment to popular hosting platforms like Heroku, AWS, and Google Cloud Platform.\n*   **Community and Ecosystem:** Has a vibrant community with a wealth of third-party libraries and extensions.\n"
+            }
+        ]
+    },
+    "what is the use of streamlit?": {
+        "results": [
+            {
+                "title": "Streamlit Python: Tutorial - DataCamp",
+                "url": "https://www.datacamp.com/tutorial/streamlit",
+                "content": "What Is Streamlit? Streamlit is a free and open-source framework to rapidly build and share beautiful machine learning and data science web apps.",
+                "score": 0.8832463
+            },
+            {
+                "title": "Python w/streamlit - Reddit",
+                "url": "https://www.reddit.com/r/Python/comments/16nrsoa/python_wstreamlit/",
+                "content": "Like others have said, streamlit is more for prototyping or building simple/internal/personal use web apps, like an interactive way of sharing",
+                "score": 0.8708723
+            },
+            {
+                "title": "Pros and cons of using Streamlit for simple demo apps - SoftwareMill",
+                "url": "https://softwaremill.com/pros-and-cons-of-using-streamlit-for-simple-demo-apps/",
+                "content": "What is it used for?\nIt is mainly used to develop simple web applications to demonstrate the operation of machine learning models, algorithms, or display data. It has quite a few predefined widgets for entering parameters and presenting various data types - from text to images to audio. These elements are defined in JS, but have an easy interface in Python. Thanks to its ease of use, it allows rapid prototyping and the creation of demonstration applications. [...] Have you ever come across a demo machine learning model with a nice graphical interface? There's a good chance it was written using the Streamlit framework. Streamlit is an open-source framework for rapid prototyping and the creation of visualizations and dashboards in Python without the need for knowledge of front-end technologies such as JS or HTML. With just a few lines of code, you can create dynamic, visually appealing apps that allow users to input data and view the results in real-time. [...] Streamlit is a great framework for creating simple demo applications. If the state of the application changes frequently, performance and latency issues can be associated with drawing the scene from scratch each time the state has changed. Another limitation is the inability to nest containers, such as a column, so we have limited options for page layout.",
+                "score": 0.8679453
+            },
+            {
+                "title": "About Streamlit in Snowflake",
+                "url": "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
+                "content": "About Streamlit in Snowflake\u00b6\n\nThis topic describes key features of Streamlit in Snowflake.\n\nWhat is Streamlit?\u00b6\n\nStreamlit is an open-source Python library that makes it easy to create\nand share custom web apps for machine learning and data science. By using Streamlit you can quickly\nbuild and deploy powerful data applications. For more information about the open-source library, see the\nStreamlit Library documentation.\n\nDeploy Streamlit apps in Snowflake\u00b6 [...] Streamlit apps are Snowflake objects and use Role-based Access Control (RBAC) to manage access to Streamlit apps.\n\nStreamlit apps run on Snowflake warehouses and use internal stages to store files and data.\n\nStreamlit in Snowflake works seamlessly with Snowpark, user-defined functions (UDFs), stored procedures, and Snowflake Native App Framework. [...] Streamlit in Snowflake helps developers securely build, deploy, and share Streamlit apps on Snowflake\u2019s data\ncloud. Using Streamlit in Snowflake, you can build applications that process and use data in Snowflake without moving\ndata or application code to an external system.\n\nKey features of Streamlit in Snowflake\u00b6\n\nSnowflake manages the underlying compute and storage for Streamlit apps.",
+                "score": 0.8649622
+            },
+            {
+                "title": "Streamlit in 3 Minutes - Medium",
+                "url": "https://medium.com/data-and-beyond/streamlit-d357935b9c",
+                "content": "Streamlit is an open-source Python library that allows you to create interactive web apps for machine learning and data science.",
+                "score": 0.852752
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.datacamp.com/tutorial/streamlit",
+                "summary": "The provided content, \"Just a moment...Enable JavaScript and cookies to continue,\" is irrelevant and provides no information about the uses of Streamlit.\n"
+            },
+            {
+                "url": "https://www.reddit.com/r/Python/comments/16nrsoa/python_wstreamlit/",
+                "summary": "Based on the provided Reddit post, Streamlit is a Python library that allows users to create more complex, attractive, and animated websites easier than with basic HTML. The user is inquiring if Streamlit has a place in the web site building community and if they should still focus on learning HTML for job possibilities.\n"
+            },
+            {
+                "url": "https://softwaremill.com/pros-and-cons-of-using-streamlit-for-simple-demo-apps/",
+                "summary": "Streamlit is an open-source Python framework for rapidly prototyping and creating visually appealing web applications, visualizations, and dashboards, especially for demonstrating machine learning models or data. It allows users to input data and view results in real-time without needing front-end web development knowledge (like HTML/JS/CSS).\n\nKey uses:\n\n*   **Rapid prototyping:** Streamlit enables quick creation of demo applications.\n*   **Machine Learning model demonstration:** It's often used to showcase the operation of ML models.\n*   **Data visualization:** Streamlit can display various data types, from text and images to audio.\n*   **Dashboard creation:** The framework simplifies building interactive dashboards.\n"
+            },
+            {
+                "url": "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
+                "summary": "Streamlit is an open-source Python library that simplifies the creation and sharing of custom web apps for machine learning and data science. Streamlit in Snowflake allows developers to securely build, deploy, and share these apps within Snowflake's data cloud, processing data directly in Snowflake without external systems. Snowflake manages the compute and storage for Streamlit apps, leveraging Role-Based Access Control (RBAC) and Snowflake warehouses.\n"
+            },
+            {
+                "url": "https://medium.com/data-and-beyond/streamlit-d357935b9c",
+                "summary": "Streamlit is an open-source Python library used to create interactive web applications for machine learning and data science. It simplifies the process of building engaging and visually appealing apps with minimal code. Streamlit offers tools for creating data visualizations like scatterplots, histograms, and interactive dashboards. It's flexible, supporting various use cases from simple visualizations to complex machine learning models and even deployment. Streamlit provides interactive components like sliders, text inputs, checkboxes, select boxes, camera input, and progress bars to enhance user interaction and display information effectively.\n"
+            }
+        ]
+    },
+    "hi": {
+        "results": [
+            {
+                "title": "Hi - Definition, Meaning & Synonyms - Vocabulary.com",
+                "url": "https://www.vocabulary.com/dictionary/hi",
+                "content": "The word hi is a good, nearly all-purpose greeting \u2014 it's appropriate in all but the most formal circumstances, so you might want to skip saying, \"Hi\" to the Queen when you meet her. When you greet someone, you have a lot of words to choose from, including \"hey,\" \"hello,\" \"hiya,\" and \"howdy,\" but hi is probably the most common. The first mention of hi attributes it to a Kansas native American in the 1800s.\nDefinitions of hi [...] hi\n/ha\u026a/\n/ha\u026a/\nIPA guide\nHi is a common greeting, more casual than \"hello.\" When you walk down the street in a small town, it might seem like everyone you pass says \"hi.\" [...] noun\nan expression of greeting\nsynonyms: hello, how-do-you-do, howdy, hullo\nsee moresee less\ntype of:\ngreeting, salutation\n(usually plural) an acknowledgment or expression of good will (especially on meeting)\n\n\nPronunciation\nUS\n/ha\u026a/\nUK\n/ha\u026a/\nCite this entry\nStyle:\nMLA\n\nMLA\nAPA\nChicago",
+                "score": 0.8010817
+            },
+            {
+                "title": "hi - Wiktionary, the free dictionary",
+                "url": "https://en.wiktionary.org/wiki/hi",
+                "content": "From Norwegian hi, from Old Norse hi\u00f0.\nNoun\nhi\u00a0n (singular definite hiet, plural indefinite hier)\nwinter quarters, winter lair (for hibernation); hibernation (used literally or figuratively)\nat g\u00e5 i hi\nto enter hibernation\nDeclension\nDeclension of hi\nSynonyms\nvinterhi\nEtymology 2\nOnomatopoeia for laughter or giggling.\nInterjection\nhi\n(onomatopoeia) Signifies giggling.\nSee also\nha\nFasu\nNoun\nh\u1ecb\n(Namumi) Synonym of he\nReferences [...] IPA(key): (Central, Balearic, Valencia) [i]\nHomophone: i\nRhymes: -i\nPronoun\nhi (enclitic and proclitic)\nrepresents a place associated with the action described by the verb, unless the place would be introduced by the preposition de\nthere (in constructions such as \"there is\", \"there are\", etc.: see haver-hi)\nreplaces an adverb (or adverbial phrase) describing the manner, instrument or association of an action\nreplaces a phrase introduced by any preposition except de (most commonly a or en) [...] (Standard Kankanaey) IPA(key): /\u02c8hi/ [\u02c8hi\u031e]\nRhymes: -i\nSyllabification: hi\nArticle\nhi\nPronunciation variant of si.\nLatin\nPronoun\nh\u012b\nnominative masculine plural of hic\nMaltese\nEtymology\nFrom Arabic \u0647\u0650\u064a\u064e (hiya).\nPronunciation\nIPA(key): /i\u02d0/\nPronoun\nhi\nAlternative form of hija\nInflection\nInflected forms of hi\nMiddle Dutch\nEtymology\nFrom Old Dutch h\u012be.\nPronunciation\nIPA(key): /hi\u02d0/\nPronoun\nhi\nhe\nInflection\nMiddle Dutch personal pronouns\nDescendants\nDutch: hij, ie\nLimburgish: hae\nFurther reading",
+                "score": 0.7823471
+            },
+            {
+                "title": "HI Definition & Meaning - Merriam-Webster",
+                "url": "https://www.merriam-webster.com/dictionary/hi",
+                "content": "hi\n1 of 2\ninterjection\n\u02c8h\u012b(-\u0113) \u00a0\n\u2014used especially as a greeting\njust called to say hi\nHI\n2 of 2\nabbreviation\n1\nHawaii\n2\nhigh intensity\n3\nhumidity index\nExamples of hi in a Sentence\nRecent Examples on the Web\nExamples are automatically compiled from online sources to show current usage. Read More Opinions expressed in the examples do not represent those of Merriam-Webster or its editors. Send us feedback.\nInterjection",
+                "score": 0.76659125
+            },
+            {
+                "title": "HI - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/HI",
+                "content": "HI or Hi may refer to: Contents. 1 Arts and entertainment; 2 Language; 3 Organizations and events; 4 Places; 5 Science and technology; 6 Other uses",
+                "score": 0.7515939
+            },
+            {
+                "title": "HI | definition in the Cambridge English Dictionary",
+                "url": "https://dictionary.cambridge.org/us/dictionary/english/hi",
+                "content": "More meanings of hi\nAll\n\nhi-fi\nhigh fidelity\nhigh-tech\nhi-res\nhi-tech\nhi-fi, at high fidelity\nhi-hat, at high hat\n\nSee all meanings\n\n\nWord of the Day\ningenious\nUKYour browser doesn't support HTML5 audio /\u026an\u02c8d\u0292i\u02d0.ni.\u0259s/\nUSYour browser doesn't support HTML5 audio /\u026an\u02c8d\u0292i\u02d0.ni.\u0259s/\n(of a person) very intelligent and skilful, or (of a thing) skilfully made or planned and involving new ideas and methods\nAbout this [...] Hallo, Hi\u2026\nSee more\nhei, hei!, morn!\u2026\nSee more\n\u06c1\u0627\u0626\u06d2(\u06a9\u0633\u06cc \u0634\u0646\u0627\u0633\u0627\u0633\u06d2 \u0645\u0644\u0627\u0642\u0627\u062a \u06c1\u0648\u0646\u06d2 \u067e\u0631 \u063a\u06cc\u0631 \u0631\u0633\u0645\u06cc \u0627\u0646\u062f\u0627\u0632 \u0633\u06d2 \u0645\u062e\u0627\u0637\u0628 \u06c1\u0648\u0646\u0627)\u2026\nSee more\n\u043f\u0440\u0438\u0432\u0456\u0442!\u2026\nSee more\n\u043f\u0440\u0438\u0432\u0435\u0442!\u2026\nSee more\n\u0c39\u0c48/\u0c28\u0c2e\u0c38\u0c4d\u0c24\u0c47\u2026\nSee more\n\u0623\u0647\u0644\u0627\u064b \u0648\u0633\u064e\u0647\u0652\u0644\u0627\u064b, \u0645\u064e\u0631\u0652\u062d\u064e\u0628\u0627\u064b\u2026\nSee more\n\u098f\u0995\u099f\u09bf \u0985\u09a8\u09be\u09a8\u09c1\u09b7\u09cd\u09a0\u09be\u09a8\u09bf\u0995 \u0985\u09ad\u09bf\u09ac\u09be\u09a6\u09a8 \u09b9\u09bf\u09b8\u09be\u09ac\u09c7 \u09ac\u09cd\u09af\u09ac\u09b9\u09c3\u09a4 \u09b9\u09af\u09bc, \u09b8\u09be\u09a7\u09be\u09b0\u09a3\u09a4 \u0986\u09aa\u09a8\u09bf \u09af\u09be\u09a6\u09c7\u09b0 \u099a\u09c7\u09a8\u09c7\u09a8 \u09a4\u09be\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af\u2026\nSee more\nahoj\u2026\nSee more\nhai\u2026\nSee more\n\u0e2a\u0e27\u0e31\u0e2a\u0e14\u0e35 (\u0e04\u0e33\u0e2d\u0e38\u0e17\u0e32\u0e19\u0e41\u0e2a\u0e14\u0e07\u0e01\u0e32\u0e23\u0e17\u0e31\u0e01\u0e17\u0e32\u0e22)\u2026\nSee more\nl\u1eddi ch\u00e0o\u2026\nSee more\ncze\u015b\u0107, cze\u015b\u0107!\u2026\nSee more\n\uc548\ub155\u2026\nSee more\nciao, salve, ciao!\u2026\nSee more\nNeed a translator? [...] hi\nexclamation\ninformal\nusYour browser doesn't support HTML5 audio /ha\u026a/ ukYour browser doesn't support HTML5 audio /ha\u026a/\nAdd to word list Add to word list\nA1\nused as an informal greeting, usually to people who you know:\nHi, there!\nHi, how are you doing?\nMore examplesFewer examples\n\nLove from Sophie. PS Say hi to Gemma.\nHi, Lewis. How are you?\nOh hi, Ben.\n\nSMART Vocabulary: related words and phrases\nWelcoming, greeting & greetings",
+                "score": 0.73868835
+            }
+        ],
+        "summaries": [
+            {
+                "url": "https://www.vocabulary.com/dictionary/hi",
+                "summary": "The content provided is a standard message indicating that JavaScript and cookies need to be enabled for the website to function. It's not directly related to the query \"hi\". Therefore, in relation to the query \"hi\", the content is **irrelevant**.\n"
+            },
+            {
+                "url": "https://en.wiktionary.org/wiki/hi",
+                "summary": "The Wiktionary entry for \"hi\" includes the following key points:\n\n*   **Translingual:** \"hi\" is a symbol recognized internationally.\n*   **English:**\n    *   It originated in American English, possibly from Middle English \"hey.\"\n    *   It functions as an interjection, a friendly greeting (\"hello\") or to call attention.\n    *   It can be a noun, referring to the greeting itself.\n    *   Informally, it's a spelling of \"high,\" used as an adjective, and appears in many derived terms.\n*   **Other languages:** \"hi\" also has entries in languages such as Albanian, Basque, Bavarian, Breton, Catalan, Chinese, Cornish, Danish, Fasu, German, Japanese, Kankanaey, Latin, Maltese, Middle Dutch, Middle English, Middle Low German, Naga Pidgin, Namuyi, North Frisian, Norwegian Nynorsk, Old English, Old Frisian, Old Irish, Pali, Pirah\u00e3, Sumerian, Vietnamese, Welsh, Yilan Creole, Yola, Yoruba and Zou, each with its own etymology, pronunciation, and grammatical function.\n"
+            },
+            {
+                "url": "https://www.merriam-webster.com/dictionary/hi",
+                "summary": "The Merriam-Webster dictionary defines \"hi\" as:\n\n*   **Interjection:** Used as a greeting.\n*   **Abbreviation:**\n    *   Hawaii\n    *   High intensity\n    *   Humidity index\n\nThe first known use of \"hi\" as an interjection was in the 15th century."
+            },
+            {
+                "url": "https://en.wikipedia.org/wiki/HI",
+                "summary": "The Wikipedia page \"HI\" is a disambiguation page, listing various meanings and uses of \"HI\" or \"Hi,\" including:\n\n*   **Arts and entertainment:** Mentions a podcast, magazine, songs, characters, albums, and EPs with \"Hi\" in the title.\n*   **Language:** Notes \"Hi\" as a greeting in English, similar to \"hello,\" and also refers to other languages and cuneiform signs.\n*   **Organizations and events:** Lists several organizations and events with \"HI\" in their names or abbreviations.\n*   **Places:** Indicates places such as Hi River, Hainan, Hawaii, and Hotel Indonesia.\n*   **Science and technology:** Includes terms like Hydrogen iodide and Health informatics.\n*   **Other uses:** Mentions \"HI\" as a subtitle code and names of people."
+            },
+            {
+                "url": "https://dictionary.cambridge.org/us/dictionary/english/hi",
+                "summary": "The content provided is empty. Therefore, there's nothing to summarize in relation to the query \"hi\".\n"
+            }
+        ]
+    }
+}
